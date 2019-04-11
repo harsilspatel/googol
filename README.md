@@ -1,5 +1,5 @@
 # googol
-alfred workflow for opening google sites with specific user.
+the name of the search engine originated from a misspelling of the word _googol_, the number 1 followed by 100 zeros, which was picked to signify that the search engine was intended to provide large quantities of information. <sup><a href="https://en.wikipedia.org/wiki/Google#History">*</a></sup>
 
 ## Why 💭
 As someone who is always logged-in to mutliple gmail accounts at any given time, accessing a particular google service with desired account is painstakingly inconvenient and unproductive. This Alfred workflow is my attempt to address the problem.
