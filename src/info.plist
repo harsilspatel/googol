@@ -60,6 +60,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E5360759-5BA0-4265-BEF3-F29982FAE2BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3B162C8-0664-4377-91D2-CE6058236031</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FE9B3CA8-14E0-4BEB-A768-B2CB26FBCE58</key>
 		<array>
 			<dict>
@@ -87,21 +100,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
 				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{var:link}</string>
-				<key>utf8</key>
-				<true/>
+				<key>hotkey</key>
+				<integer>49</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>Space</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>21503ECF-D430-4370-B9DD-6EE83DD3D66F</string>
+			<string>E5360759-5BA0-4265-BEF3-F29982FAE2BE</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -140,15 +165,15 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>fixedorder</key>
-				<true/>
+				<false/>
 				<key>items</key>
-				<string>[{"title":"harsil.patel","arg":"harsil.patel@monash.edu","subtitle":"staff"},{"title":"harsilspatel","arg":"harsilspatel@gmail.com","subtitle":"personal"},{"title":"hpat0003","arg":"hpat0003@student.monash.edu","subtitle":"student"}]</string>
+				<string>[]</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
-				<string>email</string>
+				<string></string>
 				<key>title</key>
-				<string>user</string>
+				<string>emails</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -156,6 +181,25 @@
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
 			<string>75929640-CC2C-4A38-AD88-C801422BE233</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:link}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>21503ECF-D430-4370-B9DD-6EE83DD3D66F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -212,19 +256,6 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>largetypetext</key>
-				<string>{var:link}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
-			<key>uid</key>
-			<string>C7DEBC98-0A3D-4E4D-B8A1-A906FC16C8A6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -233,9 +264,9 @@
 		<key>21503ECF-D430-4370-B9DD-6EE83DD3D66F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>630</integer>
 			<key>ypos</key>
-			<integer>90</integer>
+			<integer>210</integer>
 		</dict>
 		<key>69051129-D844-4932-A2C4-23C8EF07DBC9</key>
 		<dict>
@@ -251,13 +282,6 @@
 			<key>ypos</key>
 			<integer>210</integer>
 		</dict>
-		<key>C7DEBC98-0A3D-4E4D-B8A1-A906FC16C8A6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>620</integer>
-			<key>ypos</key>
-			<integer>250</integer>
-		</dict>
 		<key>D3B162C8-0664-4377-91D2-CE6058236031</key>
 		<dict>
 			<key>xpos</key>
@@ -271,6 +295,13 @@
 			<integer>540</integer>
 			<key>ypos</key>
 			<integer>240</integer>
+		</dict>
+		<key>E5360759-5BA0-4265-BEF3-F29982FAE2BE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>30</integer>
 		</dict>
 		<key>FE9B3CA8-14E0-4BEB-A768-B2CB26FBCE58</key>
 		<dict>
